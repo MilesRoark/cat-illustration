@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top, rgb(37, 29, 81), rgb(109, 86, 202));
+  height: 100vh;
+}
+
+.head {
+  position: absolute;
+  left: 30rem;
+  top: 10rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 42%;
+  background: linear-gradient(to left, rgb(255, 132, 0) 30%, rgb(186, 111, 30));
+  box-shadow: -1.5rem 1rem 1rem 1rem;
+  border: 2px solid yellow;
+}
+
+.ears__left {
+  position: absolute;
+  top: -0.625rem;
+  left: -19px;
+  z-index: 1;
+  border-top-left-radius: 5.625rem;
+  border-top-right-radius: 0.625rem;
+  transform: rotate(-45deg);
+  border-left: 2.188rem solid transparent;
+  border-right: 2.188rem solid transparent;
+  border-bottom: 4.357rem solid rgb(217, 120, 16);
+}
+
+.ears__left__inner,
+.ears__right__inner {
+  position: absolute;
+  top: 22px;
+  left: -20px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid rgb(206, 199, 192);
+}
+
+.ears__right {
+  position: absolute;
+  top: -0.625rem;
+  left: 16.25rem;
+  z-index: 1;
+  transform: rotate(45deg);
+  border-top-left-radius: 5.625rem;
+  border-top-right-radius: 0.625rem;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid rgb(255, 132, 0);
+}
+
+.eyes__left {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background-color: black;
+  top: 6rem;
+  left: 4rem;
+  border-radius: 50rem;
+}
+
+.eyes__right {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background-color: black;
+  top: 6rem;
+  left: 14rem;
+  border-radius: 50rem;
+}
+
+.eyes__left__inner,
+.eyes__right__inner {
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  background-color: white;
+  top: 1.2rem;
+  left: 1.2rem;
+  border-radius: 45%;
+}
+
+.nose {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  background-color: rgb(28, 24, 24);
+  top: 10rem;
+  left: 9.5rem;
+  border-radius: 3rem 0 0 0;
+  transform: rotate(45deg);
+}
+
+.mouth {
+  position: absolute;
+  height: 2rem;
+  width: 4rem;
+  background-color: white;
+  top: 14rem;
+  left: 8.5rem;
+}
+
+.whiskers__left {
+  position: absolute;
+  height: 2rem;
+  width: 4rem;
+  background-color: transparent;
+  color: black;
+  top: 10rem;
+  left: 4rem;
+}
+
+.whiskers__right {
+  position: absolute;
+  height: 2rem;
+  width: 4rem;
+  background-color: transparent;
+  color: black;
+  top: 10.5rem;
+  left: 13rem;
+  transform: rotate(180deg);
+}
+
+.whisker1 {
+  transform: rotate(10deg);
+}
+
+.whisker2 {
+  transform: rotate(3deg);
+}
+
+.whisker3 {
+  transform: rotate(-10deg);
+  margin-top: 1rem;
+}
+
+.teeth {
+  margin-top: 1rem;
+}
+
+@media (max-width: 67.5em) {
+  .head {
+    border: 2px solid yellow;
+    margin-left: -25rem;
+  }
+}
